@@ -73,8 +73,10 @@
     <Compile Include="Assets\Scripts\CurvedLine\CurvedLinePoint.cs" />
     <Compile Include="Assets\Scripts\CurvedLine\CurvedLineRenderer.cs" />
     <Compile Include="Assets\Scripts\CurvedLine\LineSmoother.cs" />
+    <Compile Include="Assets\Scripts\CustomVRController.cs" />
     <Compile Include="Assets\Scripts\FollowTransformBehaviour.cs" />
     <Compile Include="Assets\Scripts\HoverEffect.cs" />
+    <Compile Include="Assets\Scripts\TriggerBehav.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Urias/Documents/VRace_1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -633,6 +635,10 @@
       <Project>{4043D0AC-1B61-873D-CEF9-2FEED220AC36}</Project>
       <Name>SteamVR_Input_Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{8354064A-4446-0BA6-E4DA-0CD12887DDCC}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
       <Project>{69BA9E5C-683F-C8A4-598B-37AB00674022}</Project>
       <Name>SteamVR_Editor</Name>
@@ -644,10 +650,6 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{0E9E1E04-0DEE-5223-9477-0004CD391CDC}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{8354064A-4446-0BA6-E4DA-0CD12887DDCC}</Project>
-      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

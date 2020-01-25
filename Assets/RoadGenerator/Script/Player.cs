@@ -50,6 +50,17 @@ public class Player : MonoBehaviour
             {
                 // Debug.Log(v);
             }
+
+            if (CustomVRController.instance.rotateValue != 0)
+            {
+                h = CustomVRController.instance.rotateValue;
+            }
+
+            if (CustomVRController.instance.bothTriggersClicked)
+            {
+                v = 1;
+            }
+
             Move(h, v);
 
             CheckBounds();

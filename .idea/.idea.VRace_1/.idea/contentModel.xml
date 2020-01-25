@@ -33,8 +33,10 @@
             <e p="CurvedLineRenderer.cs" t="Include" />
             <e p="LineSmoother.cs" t="Include" />
           </e>
+          <e p="CustomVRController.cs" t="Include" />
           <e p="FollowTransformBehaviour.cs" t="Include" />
           <e p="HoverEffect.cs" t="Include" />
+          <e p="TriggerBehav.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">
